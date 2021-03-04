@@ -1,0 +1,406 @@
+html {
+	font-family: Consolas;
+    
+}
+
+
+body {
+    background-color: #f5faf6;
+    max-width: 1280px;
+ 
+}
+
+
+ 
+.main {
+    
+margin-right: 200px;
+margin-left: 150px;
+   
+   
+}
+
+/* nav */
+
+.navbar navbar-default {
+margin-bottom: 50px;
+}
+
+.logo {
+    background-color: #f5faf6;
+    margin-left: 15px;
+}
+
+nav ul {
+
+    float: left;
+    margin-right: 20px;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    background-color: #f5faf6;
+    padding: 20px 5px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    text-transform: uppercase;
+}
+
+
+
+/* bannière en-tête de l'article */
+
+
+.titre {
+margin-top: 100px;
+max-width: 100%;  
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: #fbec0c;
+color: black;
+font-size: 13px;
+border-radius: 0.5em;
+text-align: center;
+}
+
+.test {
+    font-size: 15px;
+visibility: hidden;
+}
+
+.who {
+    font-size: 12px;
+}
+
+
+/* section générale de l'article : intro */
+
+.chapeau {
+text-align: justify;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15px;
+font-size:15px;
+color:black;
+  
+}
+
+.partie-1 {
+text-align: justify;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+padding-top: 30px;
+font-size:15px;
+color:black;
+  
+}
+
+
+
+/* section générale de l'article : paragraphe 1 */
+
+.chapter-title {
+max-width: 500px;
+background-color:black;
+color: white;
+margin-left: 20px;
+display: block;
+padding: 3px 3px;
+font-size: 70%; 
+text-align: center;
+
+}
+
+
+
+.short {
+max-width: 15%; 
+}
+
+
+.middle {
+max-width: 50%;   
+}
+
+.long {
+max-width: 70%;   
+}
+
+
+
+
+.first-layer {
+    
+  position: relative;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto; 
+ padding-top: 40px;
+
+}
+
+
+.second-layer {
+    
+  position: relative;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto; 
+ padding-top: 30px;
+ 
+}
+
+
+.third-layer {
+    
+position: relative;
+text-align: justify;
+margin-right: auto;
+margin-left: auto; 
+padding-top: 30px;
+ 
+}
+
+
+
+
+
+/* section générale de l'article : paragraphe 2 */
+
+
+
+.study-tools {
+    
+  position: relative;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto; 
+  padding-top: 40px; 
+ 
+}
+
+
+.study-extension {
+    
+  position: relative;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto; 
+  padding-top: 10px;
+}
+
+
+
+
+/* section générale de l'article : conclusion */
+
+
+
+.conclusion {
+    
+  position: relative;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto; 
+  padding-top: 40px;
+ padding-bottom: 40px;
+}
+
+
+
+/* Footer */
+
+
+.footer {
+background-color:yellow;
+height: 100px; 
+ position: absolute; 
+ top: 10; 
+ left: 0; 
+ min-width: 100%;
+ min-height: 60%;
+            
+}
+
+
+/* Clients banner */
+
+
+
+.clients-title {
+color: black;
+text-align:center;
+font-size:12px;
+  
+}
+
+
+.clients-banner {
+color: black;
+padding-top: 0px;
+font-size: 10px;
+width: 100%;
+margin-top: 50px;
+    
+}
+
+
+.logos {
+width: 16%;
+float: left;
+margin: 5px 2%;
+    
+}
+
+
+/* Footer */
+
+
+.footer {
+    
+    flex-shrink: 0;
+    width: 100%;
+    background-color:#fbec0c;
+    color: black;
+}
+
+
+.colonnes {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px; 
+    padding: 50px 0 70px;
+   
+}
+
+.bloc {
+    width: 21%;
+    margin: 0 2%;
+    float: left;
+    
+}
+
+
+
+
+.footer-clean {
+  padding:0 0;
+  background-color:#fbec0c;
+  color:black;
+  margin: auto;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.picture {
+left: 1050px;
+width:100px;
+clip-path:ellipse(50% 50%);
+    
+}
+
+
+/* media queries mobile article hors footer */
+
+
+
+@media screen and (max-width: 1254px) {
+    
+    .nav-decoration-logo, 
+    .nav, 
+    .nav-decoration {
+     display: none;
+        
+    }    
+  
+    
+}
+
+@media screen and (max-width: 919px) {
+    
+    .nav, 
+    .navbar navbar-default,
+    .logo {
+     display: none;
+        
+    }    
+   
+}
+
+
+
+@media screen and (max-width: 799px) {
+    
+.short {
+max-width: 90%; 
+}
+
+
+.middle {
+max-width: 90%;   
+}
+
+.long {
+max-width: 90%;   
+}
+
+    
+  .chapter-title {
+max-width: 90%;
+background-color:black;
+color: white;
+margin-left: 0px;
+display: block;
+padding: 3px 3px;
+font-size: 50%;}
+   
+}
+
+
+@media screen and (min-width: 799px) and (max-width: 1254px) {
+    
+  .chapter-title {
+background-color:black;
+color: white;
+margin-left: 0px;
+display: block;
+padding: 3px 3px;
+font-size: 60%;
+    }
+   
+}
+
+
+
+

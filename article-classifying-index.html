@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Classifying products through the industrialized analysis of cash receipts.</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="article-classifying-style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1612534227430-21RDSAFLRGNEAGNZ55PR/ke17ZwdGBToddI8pDm48kOMM_kjGtcvYLyFhJov4gnyoCXeSvxnTEQmG4uwOsdIceAoHiyRoc52GMN5_2H8Wp1n4GnFFJD9yHslAhzUw3qiXztsTJdiCgzEuubh4XjrCWwvCROlN-dLNZj-0-t4O9Q/favicon.ico"/>
+    </head>
+    
+
+ 
+
+        
+    <!--
+           navbar
+        -->
+    
+ <header>  
+     
+<nav class="navbar navbar-default">
+       
+      <ul>
+        
+            <li class="logo">
+    <img src="//static1.squarespace.com/static/5ff8d790fe0aa25092813189/t/5ffdc582f5b9af3466588d3b/1612452876581/?format=1500w" width="165" height="30"/></a></li>
+            <li><a href="https://www.hereforretail.tech/"><u>Home</u></a></li>
+           <li><a href="https://www.hereforretail.tech/blog"><u>Blog</u></a></li>
+            <li><a href="https://www.hereforretail.tech/contact"><u>Contact</u></a></li>
+          </ul>
+        
+</nav>
+     
+     
+    </header> 
+    
+    
+       <!--
+           body
+        -->
+    
+  <body class="main">     
+        
+     
+               
+           <!--
+           section
+        -->
+                        
+               
+            
+                        
+    <div class="intro">
+      
+        <a class="test" href="https://www.linkedin.com/posts/valentinedreyfuss_hereforretail-ugcPost-6767359839782899712-Fzez/" target="_blank">blank</a> 
+              
+    </div>      
+               
+      <div class="titre">
+      
+      <h1>Classifying products through the industrialized analysis of cash receipts to improve profit margin and price-image</h1>
+          <br>
+          
+    <p>Written by Valentine Dreyfuss</p>
+     <p> <a class="who" href="https://www.linkedin.com/posts/valentinedreyfuss_hereforretail-ugcPost-6767359839782899712-Fzez/" target="_blank">Who are we? Discover our note!</a> </p>
+      
+      </div>
+               
+    <div class="partie-1">
+       <p class="chapeau"><i><b>This article presents elements of a study carried out by the data scientists from #HereForRetail. Our experts who rely on the latest technologies in this field or develop their own tools to help retailers answer complex and interdisciplinary issues.</b></i></p> 
+              
+        
+       <p class="chapeau-2">
+Through the analysis presented here, we wanted to propose some credible and concrete ways to solve one of the recurring problems encountered in our customers:
+How to create a <mark color="#fbec0c">classification system</mark> for their products that is not based only on obvious characteristics but rather takes into account customers’ expectations, all while managing tens or even hundreds of thousands of items? How can the client use these results to improve its pricing and merchandising strategy? How can they price new products for which there is no sales history or comparison with competitors? We have tried to find an innovative approach to these questions.
+        </p>
+    </div>                 
+               
+               <!--
+            Partie 2
+        -->
+
+<br><br><br><br>
+               
+<div class="chapter-title short">
+    <h2>Methodology</h2>
+</div>
+        
+        
+<div class="first-layer"> 
+    <p><mark color="#fbec0c">The first layer</mark> of the algorithm classifies the products and assigns them a score based on whether they are purchased: </p>
+                    
+<ul>
+<li>Always with at least one other product (score of 0)</li>
+<li>Always alone (score of 1)</li>
+<li>In between (from 0 to 1)</li>
+</ul>
+        </div>
+ 
+        
+    
+<div class="second-layer"> 
+
+    <p><mark color="#fbec0c">The second layer</mark> goes one step further: it ranks products more or less high on a scale depending on whether they are most often purchased: </p>
+      <ul>
+<li>With a wide range of other products (lower)</li>
+<li>With a limited set of products (higher)</li>
+    </ul>
+</div>
+                   
+
+<div class="third-layer">
+    
+    <p><mark color="#fbec0c">The third layer</mark> combines the first two indicators to define the following three categories:</p>
+
+    <ul>
+        <li><b>"Driver” products</b>: These products are bought sometimes alone, but more frequently with complementary products – in the example, product A is one of them. These are the products that bring customers to the store. Their prices are more likely to be compared and their absence from shelves can lead customers to leave the store without any purchase. Some examples in drug stores include baby diapers or shower gel.</li>
+        <br>
+<li><b>“Complementary” products</b>: in the example, they are products C and B. These products are rarely bought alone, most of the time they are instead purchased in addition to Driver products: either because they are purchased on impulse or because their usage is complementary.For instance, sponges, purchased with shower gel.</li>
+
+           <br>
+<li><b>“Independent” products</b>: They are bought alone most of the time – in the example, product D. In drug stores this is the case with exclusive beauty or health products for instance.</li>
+    </ul>
+
+</div>
+                   
+                   
+         <!--
+            Partie 3
+        -->
+
+                   
+<br><br><br><br>
+
+
+<div class="chapter-title middle" >
+<h2>An almost instant Return On Investment</h2>
+</div>
+                   
+        
+<div class="study-tools">
+        <p>
+            During this study, most of our data scientists’ time has been spent conceptualizing the relevant indicators and then analyzing the results. The modern tools they used (and in some cases developed), allowed data loading, visualization and calculations to take a total of just a few minutes, even on such a large volume of data. They were able in this way to <mark color="#fbec0c">draw actionable insights</mark> that can be leveraged through several optimization strategies with an almost immediate return on investment:
+        </p>
+        
+<ul>
+<li><b>Increase the value of the average basket</b><br>
+    By increasing the margin of the complementary products, for example with a maximum + 20% price cap compared to the competitors, a brand can retrieve several hundreds of thousands of euros of additional margin without damaging their price-image.</li>
+       <br>
+<li><b>Improve the price-image to develop the volumes</b><br>
+At equal gross margins, by lowering the price of sensitive products and by increasing the price of complementary products, the brand can be made more competitive in the eyes of customers.</li>
+       <br>
+<li><b>Sell additional services</b>
+Having identified the primary customer behavior associated with «independent
+products,» the retailer can focus its upsell efforts for these items on the sale of services and warranties associated with these products, rather than other products.</li>
+</ul>
+        </div>
+
+    
+<div class="study-extension">
+
+        <p>As an extension of this analysis, we can imagine several ways to push further optimization:</p>
+<ul>
+<li><b>Replicate the method</b> at the level of each individual drugstore – we are likely to find different customer behaviors between suburban and downtown stores, for example.</li>
+       <br>
+<li><b>Identify and classify</b> «Sensitive product + complementary products» groups intracategory and cross-category to improve merchandising</li>
+       <br>
+<li><b>Cross-reference</b> these elements with data from the retailer’s e-commerce website to further refine results. Online, we can see for example what products are often added first in a basket, which ones are rather seldom added first and finally which ones are often alone in the basket</li>
+</ul>
+    </div>
+                   
+                   
+          <!--
+            Partie 4 = conclusion
+        -->
+
+
+<br><br><br><br>
+
+<div class="chapter-title long" >
+<h2>Towards predictive pricing for new products and marketplaces</h2>
+ </div>                  
+                   
+<p class="conclusion">
+This experiment shows how data science can bring valuable, immediately actionable insights to optimize retail pricing.
+Combined with a flexible pricing engine able to integrate such results into price rules, data science will allow a predictive rather than reactive approach to pricing. By identifying the relevant product attributes related to a specific buying behavior, and classifying products according to those results, we can set prices for new products or for marketplace products without having to rely on sales history or competitive alignment rules.
+        </p>
+        
+     
+                   
+          
+                   
+     <!--
+            Clients
+        -->
+
+      
+<footer class="footer">
+  
+          
+<div class="clients-title">
+    <br>
+    <h1>They trust #HereForRetail</h1>
+</div>
+                
+
+ <div class="clients-banner">
+
+
+ <img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470102911-713OI342RQOVX0VMJE8Y/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-17.png" "alt=Monoprix" class="logo-monoprix logos">
+
+
+ <img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470154824-C38QNFB1R7ZO63R2SXVU/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-12.png" "alt=Leroy Merlin" class="logo-leroy logos">
+
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470139537-NUV8HQOBJFF85ZV6KRV8/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-16.png" class="logo-bricolage logos">
+ 
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470124575-AEDH1V1E4HPRG6TRCMWO/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-18.png" class="logo-intermarche logos">
+
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470063696-2PBH9RC4VBGIJS5YNM8Y/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-13.png" class="logo-feuvert logos">
+     
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470167504-T5E157W1GX1JHT6GO6WF/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-1.png" class="logo-netto logos">
+     
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470185082-QH00HCGCXCREJVEFXJAC/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-15.png" class="logo-picwic logos">
+     
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1611340190056-P3IF1XQBMOLVTIM7PIAV/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p52bY8kZn6Mpkp9xtPUVLhvLurswpbKwwoDWqBh58NLxQZMhB36LmtxTXHHtLwR3w/Untitled-20.png" class="logo-bricocash logos">
+     
+<img src="https://images.squarespace-cdn.com/content/v1/5ff8d790fe0aa25092813189/1610470351907-ZFRF3IWSY56A4WQR4B5X/ke17ZwdGBToddI8pDm48kNbFh0S9OqeJFfycVr4dsSR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfQZcnil2TdmH9-GtC3daXX6PZ7T3N-SwPRwfbkNzkvIW07ycm2Trb21kYhaLJjddA/Untitled-19.png" class="logo-bricomarche logos">
+     
+<div style="clear:both"></div>
+
+</div>
+    
+   
+               
+               
+     <!--
+            Footer
+        -->            
+               
+
+       <div class="footer-clean">
+        <footer class="footer">
+            <div class="container">
+                <div class="colonnes">
+                    <div class="bloc location">
+                        <h3>Location</h3>
+                        <ul>
+                            <li>#HereForRetail</li>
+                            <li>WeWork Coeur Marais</li>
+                            <li>66 rue des archives</li>
+                            <li>75003 Paris, France</li>
+                        </ul>
+                    </div>
+                    <div class="bloc contact">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>Phone: 00 33 6 69 42 19 14</li>
+                            <li>@: hello@HereForRetail.io</li>
+               
+                        </ul>
+                    </div>
+                    <div class="bloc team">
+                        <h3>Team</h3>
+                        <ul>
+                            <li>Valentine Dreyfuss</li>
+                            <li>Managing Director</li>
+                            <br>
+                            <li>
+<script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="75430427"></script></li>
+
+                        </ul>
+                    </div>
+                   
+                    <div class="bloc picture">
+                        
+                      <img src="https://static1.squarespace.com/static/images/60193e3ed4aab87fb9bdeed7?format=100w">
+                    </div>
+                    
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </footer>
+    </div          
+               
+               
+   
+    
+     </body>
+              
+               
+           </html>
+    
+     
